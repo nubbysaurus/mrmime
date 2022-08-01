@@ -1,7 +1,25 @@
-# mrmime - responsive 2-D animation.
+# mrmime (WIP) - responsive 2-D animation.
 ## About
-Use this stuff for any sort of stuff that you can imagine.
-ROS simulations, musical/MIDI accompaniment, blah blah blah, ANYTHING!!
+Responsively animate a 2-D image.
+
+## Design
+### INPUT
+mrmime takes the following inputs:
+
+#### REQUIRED:
+* a template 2-D image
+* a configuration file (format TBD)
+
+#### ONE OF THE FOLLOWING:
+* digital audio (.wav)
+* MIDI
+* ROS messages (topics TBD)
+
+### OUTPUT
+mrmime outputs its animation to one or more of the following:
+* a popup window
+* a page in a browser
 
 
-  ) * . _
+#####  ) * . _
+
